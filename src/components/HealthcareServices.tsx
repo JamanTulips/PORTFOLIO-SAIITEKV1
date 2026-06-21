@@ -17,7 +17,7 @@ export default function HealthcareServices() {
           <div className={styles.leftTop}>
             <h3>HIS automation</h3>
             <p>
-              Simplifying hospital operations with seamless digital automation
+              Simplifying hospital operations with seamless digital automation.
             </p>
           </div>
           <img

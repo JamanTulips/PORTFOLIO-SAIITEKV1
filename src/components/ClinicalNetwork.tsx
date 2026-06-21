@@ -73,7 +73,7 @@ export default function ClinicalNetwork() {
 
       <div className={styles.bottomPanel}>
         <h3>Trusted Worldwide</h3>
-        <p>Delivering advanced medical image solution across Asia and beyond</p>
+        <p>Delivering advanced medical image solution across Asia and beyond.</p>
       </div>
     </section>
   );
