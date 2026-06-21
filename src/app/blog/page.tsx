@@ -1,5 +1,4 @@
 import PageHeader from "@/components/PageHeader";
-import BlogSection from "@/components/BlogSection";
 
 import { createPageMetadata } from "@/lib/seo";
 
@@ -21,7 +20,16 @@ export default function Blog() {
                     { label: "Our Blog", active: true },
                 ]}
             />
-            <BlogSection />
+            <section className="container py-5">
+                <div className="text-center mx-auto" style={{ maxWidth: "760px" }}>
+                    <h2 className="mb-3">Healthcare Technology Insights</h2>
+                    <p className="text-muted mb-0">
+                        Articles and updates from Saiitek about PACS, RIS, HIS automation,
+                        AI-assisted healthcare workflows, and digital transformation for
+                        medical institutions.
+                    </p>
+                </div>
+            </section>
         </main>
     );
 }

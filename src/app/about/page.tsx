@@ -1,5 +1,5 @@
 import PageHeader from "@/components/PageHeader";
-import AboutSection from "@/components/AboutSection";
+import HealthcareInnovation from "@/components/HealthcareInnovation";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
@@ -13,7 +13,7 @@ export default function About() {
     return (
         <main>
             <PageHeader title="About Us" breadcrumb={[{ label: "Home", href: "/" }, { label: "Pages", href: "#" }, { label: "About", active: true }]} />
-            <AboutSection />
+            <HealthcareInnovation />
         </main>
     );
 }

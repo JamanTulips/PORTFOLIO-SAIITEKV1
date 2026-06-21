@@ -1,5 +1,5 @@
 import PageHeader from "@/components/PageHeader";
-import ProjectsSection from "@/components/ProjectsSection";
+import GalleryCarousel from "@/components/GalleryCarousel";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
@@ -13,7 +13,7 @@ export default function Projects() {
     return (
         <main>
             <PageHeader title="Projects" breadcrumb={[{ label: "Home", href: "/" }, { label: "Pages", href: "#" }, { label: "Projects", active: true }]} />
-            <ProjectsSection />
+            <GalleryCarousel />
         </main>
     );
 }

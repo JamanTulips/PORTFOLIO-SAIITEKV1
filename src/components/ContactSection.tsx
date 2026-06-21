@@ -1,20 +1,8 @@
 "use client";
 
-import React, { useActionState, useState } from "react";
-import { sendContactEmail } from "@/actions/sendContactEmail";
-import ReCAPTCHA from "react-google-recaptcha";
-
-const initialState = {
-  success: false,
-  message: "",
-};
+import React from "react";
 
 const ContactSection = () => {
-  const [state, formAction, isPending] = useActionState(
-    sendContactEmail,
-    initialState,
-  );
-  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
   return (
     <div id="contact" className="container-fluid py-5 mb-5">
       <div className="container">

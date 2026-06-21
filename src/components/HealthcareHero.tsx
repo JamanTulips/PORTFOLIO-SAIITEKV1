@@ -32,7 +32,10 @@ export default function HealthcareHero() {
       <div className={styles.blurThree} />
 
       <div className={styles.content}>
-        <h1 id="healthcare-hero-title">Transforming Healthcare Through Technology</h1>
+        <h1 id="healthcare-hero-title">
+          <span className={styles.titleLine}>Transforming healthcare</span>
+          <span className={styles.titleLine}>through technology</span>
+        </h1>
         <p className={styles.subtitle}>
           Seamless PACS, RIS, AI tools, and digital solutions tailored for modern care.
         </p>

@@ -1,5 +1,4 @@
 import PageHeader from "@/components/PageHeader";
-import TestimonialsSection from "@/components/TestimonialsSection";
 
 import { createPageMetadata } from "@/lib/seo";
 
@@ -21,7 +20,16 @@ export default function Testimonials() {
                     { label: "Testimonials", active: true },
                 ]}
             />
-            <TestimonialsSection />
+            <section className="container py-5">
+                <div className="text-center mx-auto" style={{ maxWidth: "760px" }}>
+                    <h2 className="mb-3">Trusted by Healthcare Institutions</h2>
+                    <p className="text-muted mb-0">
+                        Saiitek solutions help medical teams improve imaging workflows,
+                        patient data access, and hospital automation with reliable digital
+                        healthcare platforms.
+                    </p>
+                </div>
+            </section>
         </main>
     );
 }

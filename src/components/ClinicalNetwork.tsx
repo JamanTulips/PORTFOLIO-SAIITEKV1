@@ -47,7 +47,8 @@ export default function ClinicalNetwork() {
           <h2 id="clinical-network-title">Our Hospital Network</h2>
           <p className="text-muted">
             Trusted by the leading hospitals and medical institution across
-            Nepal,Bangladesh and many more.
+            <br />
+            Nepal, Bangladesh and many more.
           </p>
         </div>
 

@@ -68,7 +68,6 @@
 }
 
 .content h1 {
-  max-width: 590px;
   margin: 0 auto;
   color: #ffffff;
   font-size: clamp(2.8rem, 5.2vw, 4.25rem);
@@ -76,6 +75,11 @@
   line-height: 1.12;
   letter-spacing: -0.02em;
   text-shadow: 0 1px 22px rgba(18, 72, 145, 0.22);
+}
+
+.titleLine {
+  display: block;
+  white-space: nowrap;
 }
 
 .subtitle {
@@ -157,10 +161,6 @@
   .hero {
     min-height: auto;
     padding: 72px 20px 52px;
-  }
-
-  .content h1 {
-    max-width: 620px;
   }
 
   .features {

@@ -55,9 +55,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* <Link href="/contact" className={styles.cta} onClick={() => setIsMenuOpen(false)}>
-            Request A Demo
-          </Link> */}
         </div>
       </nav>
     </header>
